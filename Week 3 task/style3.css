@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+      background-color: #EEE8AA;
+      margin:0;
+      padding:0;
+  }
+  .topnav {
+    overflow: hidden;
+    text-align: center;
+    background-color: 	#F5F5DC;
+    padding: 1.6em;
+  }
+  .topnav a {
+    float: center;
+    color: #7859c6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 50%
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #5a6af8;
+    color: white;
+    border-radius: 50px;
+  }
+  .top_img{
+    width: 10%;
+    margin-left: 0%;
+    margin-right: 0;
+    float: left;
+    margin-top: -1%;
+    margin-bottom: -1%;
+  }
+  input[type=text], select, textarea {
+    width: 83%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+    margin-left: 8%;
+    margin-right: 50%;
+    position: relative;
+  }
+  .log{
+    background-color:#A3E4D7;
+    width: 30%;
+    margin:auto;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: 32%;
+    padding:10px 0px 10px 0px;
+    border-radius:15px 15px 15px 15px;
+    color: #0E6251;
+  }
+  img{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 70%;
+    margin-top: 5%;
+  }
+  .center{
+    text-align: center;
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  button{
+    background-color:#3BAF9F;
+    display:block;
+    margin:20px 0px 0px 20px;
+    text-align:center;
+    border-radius:12px;
+    border:2px solid #366473;
+    padding:14px 110px;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    transition:0.25px;
+    margin-left: 20%;
+  } 
+  button:hover{
+    background-color:#5390F5;
+  }
+  label[for=Username]{
+    margin-left: 8%;
+  }
+  label[for=Password]{
+    margin-left: 8%;
+  }
+  .two{
+    margin-left: 50%;
+  }
+  .three{
+    text-decoration: none;
+  }
+  .three:hover{
+    background: reflctive;
+  }
+  .four{
+    margin-left: 35%;
+  }
+  footer{
+    background-color: #A3E4D7;
+    padding: 2em;
+    margin-bottom: auto;
+    margin-top: 16%;
+    text-align: center;
+  }

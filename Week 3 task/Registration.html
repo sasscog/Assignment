@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration</title>
+  <link href="style2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+      <header>
+        <nav>
+            <div class="topnav">
+              <img class="top_img" src="https://logos.textgiraffe.com/logos/logo-name/Zuri-designstyle-candy-m.png">
+              <a href="index.html">About Me</a>
+              <a href="Contact.html">Contact</a>
+              <a class="active" href="Registration.html">Registration</a>
+              <a href="Login.html">Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="head">
+          <h1>Registration Form</h1>
+          <p>Please complete the form below</p>
+        </div>
+      <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+          <label for="Phone">Phone Number</label>
+          <input type="text" id="number" name="phonenumber" placeholder="08x xxxx xxxx.."><br><br>
+  
+          <label for="Gender">Gender:</label>
+          <select id="Gender" name="Gender">
+            <option value="">--Select Gender--</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Complicated">Complicated</option>
+          </select><br>
+  
+          <label for="country">Country:</label>
+          <select id="country" name="country">
+            <option value="">--Select Country--</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Mali">Mali</option>
+            <option value="Russia">Russia</option>
+            <option value="Benin">Benin</option>
+          </select><br>
+          <label for="State">State/Provience:</label>
+          <select id="State" name="State/Provience">
+            <option value="">--Select State/Provience--</option>
+            <option value="abia">Abia</option>
+            <option value="adamawa">Adamawa</option>
+            <option value="akwa-ibom">Akwa-Ibom</option>
+            <option value="anambra">Anambra</option>
+            <option value="bauchi">Bauchi</option>
+            <option value="Bayelsa">Bayelsa</option>
+            <option value="benue">Benue</option>
+            <option value="borno">Borno</option>
+          </select><br><br>
+  
+          <label for="email">Email</label>
+          <input type="text" id="Email" name="Email" placeholder="Bolatito@Zuri.com..">
+  
+          <label for="pword">Password</label>
+          <input type="text" id="pword" name="Password" placeholder="Enter password..">
+  
+          <label for="pword">Confirm Password</label>
+          <input type="text" id="cpword" name="Confirm Password" placeholder="Enter password..">
+
+          <input type="radio" id="terms" name="terms and condition" value="HTML">
+          <label for="terms">Click to accept Terms and Conditions</label><br>
+
+          <input type="submit" value="Register">
+        </form>
+        </main>
+    <footer>
+      <p>Thank you Zuri</p>
+    </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
